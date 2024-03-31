@@ -36,4 +36,4 @@ def trekk(valg):
 print (f"nå skal vi spille 3 på rad! \n{spille_brett} \nfor å velge ruta øverst til høyre må du skrive rad så rute \nrad(1) rute(3) så da blir det 13") 
 
 trekk (11)
-
+#testting
