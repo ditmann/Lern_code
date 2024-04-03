@@ -1,3 +1,6 @@
+from random import randrange as tilfeldig
+
+
 #variabler for boksene
 fri = "|_|"
 spiller = "|X|"
@@ -94,12 +97,17 @@ def trekk(valg):
         trekk(int(input()))
 
 
+#lager liste av de forskjellige trekkene man kan gjøre.
+mulige_trekk = [11,12,13,21,22,23,31,32,33]
+
+
+
 
 def rob_trekk():
     rob_valg = random.randint(11,12,13,21,22,23,31,32,33)
 
 
-
+rob_trekk (tilfeldig(10))
 
 
         
@@ -107,4 +115,4 @@ def rob_trekk():
 
 #introduksjon til spillet
 print (f"nå skal vi spille 3 på rad! \n{spille_brett} \nfor å velge ruta øverst til høyre må du skrive rad så rute \nrad(1) rute(3) så da blir det 13") 
-trekk (int(input()))
+trekk (11)
