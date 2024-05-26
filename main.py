@@ -24,7 +24,6 @@ mulige_trekk = [11,12,13,21,22,23,31,32,33]
 
 
 
-
 #endrer statusen til boksene basert på tall fra brukeren
 def trekk(valg):
     global box11
